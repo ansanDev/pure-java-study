@@ -1,5 +1,5 @@
 package ObjectOrientedProgramming2;
-class Tv{
+class Tv2{
 	boolean power; //전원상태
 	int channel; //채널
 	
@@ -9,7 +9,7 @@ class Tv{
 	   
 }
 
-class CaptionTv extends Tv{ 
+class CaptionTv extends Tv2{ 
 	boolean caption;	//캡션 상태(on/off)
 	void displayCaption(String text) {
 		if(caption) {	//캡션 상태사 on(true)일 때만 text를 보여 줌
